@@ -36,7 +36,7 @@ function call1(args,cb){
     setTimeout(cb, randomTime(), null , 1);
 }
 function call2(args,cb){
-    setTimeout(cb, randomTime(), null , 2);
+    setTimeout(cb, 2000, null , 2);
 }
 function call3(args,cb){
     setTimeout(cb, randomTime(), null , 3);
